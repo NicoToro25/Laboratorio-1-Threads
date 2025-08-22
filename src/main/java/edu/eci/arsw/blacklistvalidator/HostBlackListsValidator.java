@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author hcadavid
+ * @author nect25
  */
 public class HostBlackListsValidator {
 

@@ -17,9 +17,9 @@ public class CountThreadsMain {
         CountThread b = new CountThread("Hilo B", 100, 199);
         CountThread c = new CountThread("Hilo C", 200, 299);
 
-        a.start();
-        b.start();
-        c.start();
+        a.run();
+        b.run();
+        c.run();
 
     }
     

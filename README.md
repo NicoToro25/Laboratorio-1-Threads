@@ -10,19 +10,23 @@
 
 1. De acuerdo con lo revisado en las lecturas, complete las clases CountThread, para que las mismas definan el ciclo de vida de un hilo que imprima por pantalla los números entre A y B.
 
-![img](img/CountThread.png)
+Se agregó la lógica correspondiente a la clase CountThreads.
+
+![img](img/countThreads.png)
 
 2. Complete el método __main__ de la clase CountMainThreads para que:
 	1. Cree 3 hilos de tipo CountThread, asignándole al primero el intervalo [0..99], al segundo [99..199], y al tercero [200..299].
 	2. Inicie los tres hilos con 'start()'.
-	3. Ejecute y revise la salida por pantalla.
-   
-	   ![img](img/3threads.png)
+
 	   ![img](img/start.png)
+
+	3. Ejecute y revise la salida por pantalla.
+
+	   ![img](img/startResultado.png)
    
 	4. Cambie el inicio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
-   
-	   ![img](img/runnig-3-threads.png)
+
+	   ![img](img/run.png)
    
 	Al usar start() los números se imprimen en desorden, ya que se corren en paralelo y se mezclan los resultados. Mientras que con run(), ejecuta el hilo actual y la ejecución es secuencial, por lo que el resultado se imprime en orden.
 
