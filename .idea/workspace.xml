@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7be3264-e576-4886-afe7-7f6fdef0d9d1" name="Changes" comment="Avance primer punto">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="e7be3264-e576-4886-afe7-7f6fdef0d9d1" name="Changes" comment="Correciones Punto 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PiDigits.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/HostBlackListsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/HostBlackListsValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/threads/CountThreadsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -36,7 +38,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="development" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,24 +66,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CountThreadsMain.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nikot/OneDrive/Universidad/8.Octavo semestre/Laboratorio1/Laboratorio-1-Threads",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CountThreadsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PiCalcTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PiCalcTest.piGenTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nikot/OneDrive/Universidad/8.Octavo semestre/Laboratorio1/Laboratorio-1-Threads&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CountThreadsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.threads.CountThreadsMain" />
       <module name="PiDigits" />
@@ -91,6 +96,50 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blacklistvalidator.Main" />
+      <module name="PiDigits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.blacklistvalidator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PiCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PiDigits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.arsw.math" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.math.PiCalcTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PiCalcTest.piGenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PiDigits" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.arsw.math" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.math.PiCalcTest" />
+      <option name="METHOD_NAME" value="piGenTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,6 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.PiCalcTest.piGenTest" />
+        <item itemvalue="JUnit.PiCalcTest" />
         <item itemvalue="Application.CountThreadsMain" />
       </list>
     </recent_temporary>
@@ -131,7 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755352015370</updated>
       <workItem from="1755827318456" duration="265000" />
-      <workItem from="1755827602904" duration="4000000" />
+      <workItem from="1755827602904" duration="17725000" />
+      <workItem from="1755924157428" duration="1673000" />
     </task>
     <task id="LOCAL-00001" summary="Avance primer punto">
       <option name="closed" value="true" />
@@ -141,7 +194,31 @@
       <option name="project" value="LOCAL" />
       <updated>1755356010317</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Correciones de imagenes">
+      <option name="closed" value="true" />
+      <created>1755894619080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755894619080</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Punto 2">
+      <option name="closed" value="true" />
+      <created>1755921275473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755921275473</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correciones Punto 2">
+      <option name="closed" value="true" />
+      <created>1755923053905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755923053905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +237,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Avance primer punto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance primer punto" />
+    <MESSAGE value="Correciones de imagenes" />
+    <MESSAGE value="Punto 2" />
+    <MESSAGE value="Correciones Punto 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correciones Punto 2" />
   </component>
 </project>
