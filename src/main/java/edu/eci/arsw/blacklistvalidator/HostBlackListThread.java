@@ -7,7 +7,7 @@ import java.util.List;
 public class HostBlackListThread extends Thread {
 
     private final HostBlacklistsDataSourceFacade facade;
-    private final String ipaddress; // Cambiado de int a String
+    private final String ipaddress;
     private final int startServer;
     private final int endServer;
     private int occurrencesMaliciousServers;
@@ -32,7 +32,7 @@ public class HostBlackListThread extends Thread {
                     occurrencesMaliciousServers++;
                 }
             }
-            Thread.sleep(4000); // 3 segundos
+            Thread.sleep(4000);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
