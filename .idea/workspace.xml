@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7be3264-e576-4886-afe7-7f6fdef0d9d1" name="Changes" comment="Punto 2">
+    <list default="true" id="e7be3264-e576-4886-afe7-7f6fdef0d9d1" name="Changes" comment="Correciones Punto 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/HostBlackListsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/HostBlackListsValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blacklistvalidator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,27 +66,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CountThreadsMain.executor": "Run",
-    "Application.Main.executor": "Run",
-    "JUnit.PiCalcTest.executor": "Run",
-    "JUnit.PiCalcTest.piGenTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "development",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nikot/OneDrive/Universidad/8.Octavo semestre/Laboratorio1/Laboratorio-1-Threads",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CountThreadsMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PiCalcTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PiCalcTest.piGenTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;development&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nikot/OneDrive/Universidad/8.Octavo semestre/Laboratorio1/Laboratorio-1-Threads&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.PiCalcTest.piGenTest">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CountThreadsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.threads.CountThreadsMain" />
       <module name="PiDigits" />
@@ -157,9 +159,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PiCalcTest.piGenTest" />
         <item itemvalue="JUnit.PiCalcTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CountThreadsMain" />
       </list>
     </recent_temporary>
@@ -181,7 +183,8 @@
       <option name="presentableId" value="Default" />
       <updated>1755352015370</updated>
       <workItem from="1755827318456" duration="265000" />
-      <workItem from="1755827602904" duration="17169000" />
+      <workItem from="1755827602904" duration="17725000" />
+      <workItem from="1755924157428" duration="1673000" />
     </task>
     <task id="LOCAL-00001" summary="Avance primer punto">
       <option name="closed" value="true" />
@@ -207,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755921275473</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Correciones Punto 2">
+      <option name="closed" value="true" />
+      <created>1755923053905</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755923053905</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +239,7 @@
     <MESSAGE value="Avance primer punto" />
     <MESSAGE value="Correciones de imagenes" />
     <MESSAGE value="Punto 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Punto 2" />
+    <MESSAGE value="Correciones Punto 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correciones Punto 2" />
   </component>
 </project>

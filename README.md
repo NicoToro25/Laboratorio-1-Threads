@@ -98,14 +98,35 @@ También, se podría implementar el patrón Observer/Coordinador que permite un 
 A partir de lo anterior, implemente la siguiente secuencia de experimentos para realizar las validación de direcciones IP dispersas (por ejemplo 202.24.34.55), tomando los tiempos de ejecución de los mismos (asegúrese de hacerlos en la misma máquina):
 
 1. Un solo hilo.
+
+![img.png](img/hilo1.png)
+
+
 2. Tantos hilos como núcleos de procesamiento (haga que el programa determine esto haciendo uso del [API Runtime](https://docs.oracle.com/javase/7/docs/api/java/lang/Runtime.html)).
+
+![img.png](img/cores.png)
+
+![img.png](img/cores2.png)
+
+![img_1.png](img/hilosCores.png)
+
 3. Tantos hilos como el doble de núcleos de procesamiento.
+
+![img_2.png](img/doubleCores.png)
+
 4. 50 hilos.
+
+![img_3.png](img/50hilos.png)
+
 5. 100 hilos.
+
+![img_3.png](img/100hilos.png)
 
 Al iniciar el programa ejecute el monitor jVisualVM, y a medida que corran las pruebas, revise y anote el consumo de CPU y de memoria en cada caso. ![](img/jvisualvm.png)
 
 Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tiempo de solución vs. número de hilos. Analice y plantee hipótesis con su compañero para las siguientes preguntas (puede tener en cuenta lo reportado por jVisualVM):
+
+El tiempo de ejecución disminuye al pasar de 1 hilo a 12 hilos, pero al otorgarle más hilos al proceso, las mejores son pocas y se evidencia especialmente cuando se utilizan los mismos que hilos que la cantidad de núcleos, porque cuando se supera la cantidad de hilos a la de núcloeos, el proceso muestra muy pocas mejoras.
 
 **Parte IV - Ejercicio Black List Search**
 

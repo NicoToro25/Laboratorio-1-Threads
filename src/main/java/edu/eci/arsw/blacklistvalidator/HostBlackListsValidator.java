@@ -6,6 +6,7 @@
 package edu.eci.arsw.blacklistvalidator;
 
 import edu.eci.arsw.spamkeywordsdatasource.HostBlacklistsDataSourceFacade;
+import org.w3c.dom.ls.LSOutput;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
