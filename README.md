@@ -126,6 +126,8 @@ Al iniciar el programa ejecute el monitor jVisualVM, y a medida que corran las p
 
 Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tiempo de solución vs. número de hilos. Analice y plantee hipótesis con su compañero para las siguientes preguntas (puede tener en cuenta lo reportado por jVisualVM):
 
+### Respuesta
+
 El tiempo de ejecución disminuye al pasar de 1 hilo a 12 hilos, pero al otorgarle más hilos al proceso, las mejores son pocas y se evidencia especialmente cuando se utilizan los mismos que hilos que la cantidad de núcleos, porque cuando se supera la cantidad de hilos a la de núcloeos, el proceso muestra muy pocas mejoras.
 
 **Parte IV - Ejercicio Black List Search**
